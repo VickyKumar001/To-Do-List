@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+}
+form input{
+  flex-basis: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+form button{
+  flex-basis: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #d62020;
+  color: #fff;
+  cursor: pointer;
+  height: 40px;
+}
+
+.list{
+  width: 1170px;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+
+.list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.list ul li{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0e2b08;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.completed{
+  text-decoration: line-through;
+  background-color: #d62020 !important;
+  color: #fff !important;
+}
+
+.list ul li:hover {
+  background-color: #178013;
+}
+
+
+.tabsouter{
+  width: 1170px;
+  margin: auto
+}
+
+.tabsouter ul{
+  
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.tabsouter ul li button{
+  background: #c0b9b9;
+  color: #343a40;
+  padding:0.5rem 20px;
+  margin-right: 18px;
+  font-weight: 600 ;
+  border: none;
+  cursor: pointer;
+}
+
+.activateButton{
+  background: #e61b1b !important;
+  color: #fff !important;
+}
